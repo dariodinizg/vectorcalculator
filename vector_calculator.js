@@ -202,46 +202,6 @@ class VectorCalculator{
             }
         }
 }
-
-
-let calculator = new VectorCalculator()
-
-
-var p = {
-    'a': {
-        'x':1,
-        'y':2,
-        'z':1,
-    },
-    'b': {
-        'x':-2,
-        'y':3,
-        'z':1,
-    },
-    'c': {
-        'x':-3,
-        'y':-4,
-    },
-}
-
-
-console.log(calculator.multiply_vectorProduct([p['a'], p['b']]))
-
-
-
-//  OLD EXERCISES
-// console.log(calculator.add_vectors(points['A'], points['B']))
-// console.log(calculator.subtract_vectors(points['A'], points['B']))
-// console.log(calculator.scale_vector(points['A'],3))
-// console.log(calculator.get_opositeVector(points['A']))
-// console.log(calculator.get_vectorModule(points['A']))
-
-
-
-// for (let index = 0; index < Object.keys(points).length; index++) {
-//     const element =  Object.keys(points)[index];
-//     console.log(`${index + 1} - Modulo de ${element}: ${calculator.get_vectorModule(points[element]).toFixed(2)}`)
-// }
-
-
-
+ 
+// Export statement for Nodejs
+module.exports = VectorCalculator
