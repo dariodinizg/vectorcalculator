@@ -21,6 +21,7 @@ Import it in your js script and instantiate with no parameters.
 
 The vectors must be passed as nested objects like:
 
+```javascript
 // for R2 space
 var your_points = {
 	vectorA = {
@@ -37,3 +38,4 @@ var your_points = {
 	  'z': value_z
 	}
 }
+```
